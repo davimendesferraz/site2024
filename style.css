@@ -1,11 +1,9 @@
-<.cabecalho>
-..cabecalho-imagem{
-    width: 20%;
-    }
-    .cabecalho {
-        background-color: #383D58;
-        color: white;
-        }
-        color: white;
-display:flex;
+.cabeçalho-imagem{
+    width50%;
+}
+
+.cabeçalho {
+    background-color: rgb(2,  26, 77);
+    color: white
+    display: flex
 }
