@@ -9,7 +9,7 @@
 }
 
 .cabeçalho {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR12J1RdzV5JQz2b59XMaEGQIGrBPdiUVGS2w&s');
+    background-color: rgb(2, 26, 77);
     color: white;
     display:flex;
     justify-content: space-around;
