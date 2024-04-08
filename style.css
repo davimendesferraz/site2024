@@ -11,7 +11,7 @@
 .cabeçalho {
     background-image: url('https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e');
     background-size: cover;
-    background-position-y: 300
+    background-position-y: 500
     color: white;
     display:flex;
     justify-content: space-around;
