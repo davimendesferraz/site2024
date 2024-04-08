@@ -1,12 +1,13 @@
-<header>
 * {
-    margin: 0 16px;
-    padding: 24px 0;
+    margin: 25;
+    padding: 0;
     }
 
 .cabecalho-imagem{
     width: 20%;
-    }
+    height 15%;
+}
+    
     .cabecalho {
         background-color: #383D58;
         color: white;
