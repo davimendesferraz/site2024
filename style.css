@@ -10,7 +10,7 @@
 
 .cabeçalho {
     background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
-    color: white;
+    color: rgb(0, 119, 255);
     display:flex;
     justify-content: space-around;
     padding: 24px 0;
