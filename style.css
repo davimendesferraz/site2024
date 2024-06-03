@@ -6,6 +6,7 @@ body {
 }
 
 .cabeçalho-verde {
+    background-image: url(https://brasil.perfil.com/wp-content/uploads/2023/10/comemoracao-do-brasil-apos-vitoria.jpg);
     background-color: #34C759; /* cor verde brasileira */
     color: #fff;
     padding: 20px;
