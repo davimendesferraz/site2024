@@ -1,25 +1,47 @@
 * {
-    margin: 25;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-}
-
-.cabeçalho-imagem{
-    width: 15%;
-    height: 15%;
-}
-
-.cabeçalho {
-    background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  .cabeçalho {
+    background-image: linear-gradient(to bottom, #f0f0f0, #fff);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: rgb(0, 119, 255);
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    padding: 24px 0;
-}
-
-.cabeçalho-lista-item{
-    display: inline-block;
-margin: 0 16px;
-padding: 24px 0;
-font-size:  30px;
-}
-
+    padding: 16px 24px;
+  }
+  
+  .cabeçalho-imagem {
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid #ddd;
+    margin: 16px;
+  }
+  
+  .cabeçalho-lista-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    font-size: 24px;
+    margin: 0 16px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cabeçalho-lista-item:hover {
+    background-color: #ddd;
+  }
+  
+  .rodapé {
+    border-top: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+  }
