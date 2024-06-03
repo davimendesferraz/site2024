@@ -1,51 +1,78 @@
-* {
-    margin: 25;
-    padding: 0;
-}
-
-.cabeçalho-imagem{
-    width: 15%;
-    height: 15%;
-}
-
-* {
-    box-sizing: border-box;
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    background-color: #ffffff;
-  }
-  
-  .cabeçalho {
-    background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
-    box-shadow: 0 2px 4px rgba(0, 228, 11, 0.1);
-    color: rgb(0, 119, 255);
-    display: flex;
-    justify-content: space-around;
-    padding: 16px 24px;
-  }
-  
-  
-  .cabeçalho-lista-item {
-    display: flex;
-    align-items: center;
-    padding: 8px 16px;
-    background-color: #f0f0f0;
-    font-size: 24px;
-    margin: 0 16px;
-    transition: background-color 0.2s ease;
-  }
-  
-  .cabeçalho-lista-item:hover {
-    background-color: #ddd;
-  }
-  
-  .rodapé {
-    border-top: 1px solid #ddd;
-    padding: 16px;
+}
+
+.cabeçalho {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
+}
+
+.cabeçalho-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.cabeçalho-lista-item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabeçalho-lista-item li {
+    margin-right: 20px;
+}
+
+.cabeçalho-lista-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.escola {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.escola-titulo {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.escola-texto-um, .escola-texto-dois {
     font-size: 18px;
-  }
+    margin-bottom: 20px;
+}
+
+.container-imagem {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagem-darlan {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
