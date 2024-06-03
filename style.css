@@ -6,7 +6,6 @@ body {
 }
 
 .cabeçalho-verde {
-    background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
     background-color: #34C759; /* cor verde brasileira */
     color: #fff;
     padding: 20px;
@@ -14,7 +13,6 @@ body {
 }
 
 .cabeçalho-imagem {
-    background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -60,5 +58,4 @@ body {
     margin: 20px;
 }
 
-.imagem-darlan-verde {
-    width: 
+.imagem-darlan
