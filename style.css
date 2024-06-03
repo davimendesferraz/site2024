@@ -2,11 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2; /* cor de fundo mais clara */
 }
 
-.cabeçalho-verde {
-    background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
+.cabeçalho {
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -36,26 +35,44 @@ body {
     text-decoration: none;
 }
 
-.escola-verde {
-    background-color: #C6F4D6; /* cor verde mais clara */
+.escola {
+    background-color: #f0f0f0;
     padding: 20px;
 }
 
-.escola-titulo-verde {
+.escola-titulo {
     font-size: 24px;
     margin-top: 0;
-    color: #34C759; /* cor verde brasileira */
 }
 
-.escola-texto-verde {
+.escola-texto-um, .escola-texto-dois {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #666; /* cor mais escura */
 }
 
-.container-imagem-verde {
+.container-imagem {
     text-align: center;
     margin: 20px;
 }
 
-.imagem-darlan
+.imagem-darlan {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
