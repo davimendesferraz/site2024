@@ -23,3 +23,8 @@ padding: 24px 0;
 font-size:  30px;
 }
 
+body {
+    background-image: url(https://webvolei.com.br/wp-content/uploads/2023/11/Brasil-x-mexico-pan-americano-Alexandre-Loureiro-darlan-jutsus.jpg1_.jpg);
+    background-size: cover; /* para que a imagem cubra toda a página */
+    background-position: center; /* para que a imagem seja centralizada */
+  }
