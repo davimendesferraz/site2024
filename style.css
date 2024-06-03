@@ -16,12 +16,12 @@
   }
   
   body {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
   }
   
   .cabeçalho {
     background-image: url(https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/npcy3nwsbmo5xz0wiy4e);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 228, 11, 0.1);
     color: rgb(0, 119, 255);
     display: flex;
     justify-content: space-around;
